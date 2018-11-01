@@ -1,0 +1,43 @@
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+            }
+
+            .cls-2 {
+                clip-path: url(#clip-path);
+            }
+
+            .cls-3 {
+                clip-path: url(#clip-path-2);
+            }
+
+            .cls-4 {
+                fill: url(#Ikke-navngivet_forløb_8);
+            }
+
+        </style>
+        <clipPath id="clip-path">
+            <rect class="cls-1" x="50" y="50" width="100" height="100" />
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <rect class="cls-1" x="-1022.35" y="-185.1" width="1201.6" height="521.2" />
+        </clipPath>
+        <radialGradient id="Ikke-navngivet_forløb_8" cx="253.1" cy="1768.98" fx="400.5169200043704" fy="1907.5746160842468" r="269.48" gradientTransform="matrix(0.18, -0.03, 0.03, 0.09, 6.34, -33.14)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#cce0f4" />
+            <stop offset="0.06" stop-color="#c3dcf2" />
+            <stop offset="0.15" stop-color="#a9d2ee" />
+            <stop offset="0.27" stop-color="#80c2e7" />
+            <stop offset="0.41" stop-color="#47acde" />
+            <stop offset="0.5" stop-color="#1e9cd7" />
+            <stop offset="0.92" stop-color="#001d80" />
+        </radialGradient>
+    </defs>
+    <title>vand</title>
+    <g class="cls-2">
+        <g class="cls-3">
+            <path class="cls-4" d="M116.5,83.7,110.65,81l-11-5.15s0,0,0-.1c-.4-1.1-1.15-1.6-1.85-1.45a2.88,2.88,0,0,0-1.65,2.25.94.94,0,0,1-.1.4l-10.8,9.25L79.55,91c-8,4.2-15,10.25-18.25,17-7.45,15.2,6.5,28.9,35.6,23.3,30.3-5.85,45.35-26.15,36.75-38.75C130.3,87.6,123.8,84.7,116.5,83.7Z" />
+        </g>
+    </g>
+</svg>

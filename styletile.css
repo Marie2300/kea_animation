@@ -1,0 +1,325 @@
+/****************** startskærm start ********************/
+
+
+#game_background {
+    position: relative;
+    background-image: url('baggrund1.svg');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+#pige {
+
+    background-image: url("pige.svg");
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 57%;
+    left: 78%;
+
+}
+
+#dreng {
+
+    background-image: url("dreng.svg");
+    background-repeat: no-repeat;
+    width: 15vw;
+    height: 17vw;
+    position: absolute;
+    top: 79%;
+    right: ;
+}
+
+#snemand {
+
+    background-image: url("snemand.svg");
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 66%;
+    left: 75%;
+}
+
+#titel {
+
+    background-image: url("melt2.png");
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 27vw;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+
+
+}
+
+#titel2 {
+
+    background-image: url("melt3.png");
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 15vw;
+    position: absolute;
+    top: 43%;
+    left: 43%;
+
+
+}
+
+
+#start {
+
+    background-image: url("start.svg");
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 40%;
+
+
+}
+
+#sky {
+
+    background-image: url("sky1.png");
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 11vw;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 25%;
+
+
+}
+
+#instillinger {
+
+    background-image: url("instillinger.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 0%;
+    left: 90%;
+
+
+
+}
+
+/******************* slut startskærm *********************/
+/******************* start spilskærm *********************/
+
+#game_backgrounds {
+
+    height: 100vw;
+    width: 100vw;
+
+    background-image: url('baggrund2.svg');
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+
+
+}
+
+#snemand2 {
+
+    height: 50vw;
+    width: 50vw;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+
+    background-image: url("snemand2.svg");
+    background-repeat: no-repeat;
+    margin: auto;
+
+
+}
+
+#drobe {
+
+    background-image: url("drobe.svg");
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    top: 75%;
+
+
+}
+
+
+#drober_liv {
+
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    background-image: url("drober_liv.svg");
+    background-repeat: no-repeat;
+    top: 75%;
+    left: 80%;
+
+
+}
+
+#timeglas {
+
+    background-image: url("timeglas.svg");
+    background-repeat: no-repeat;
+    height: 12vw;
+    width: 15vw;
+    position: absolute;
+    top: 0%;
+    left: 90%
+}
+
+#vand {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 30%;
+    left: 40%
+}
+
+/******************* slut spilskærm *********************/
+/**************** start instillingsskærm *********************/
+
+
+#game_background3 {
+
+
+    background-image: url(baggrund1.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+
+}
+
+#instillinger2 {
+
+
+    background-image: url(instillinger2.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+}
+
+#Lydlos {
+
+
+    background-image: url("Lydlos.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+
+}
+
+
+
+#Lyd {
+
+    background-image: url("Lyd.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+
+}
+
+#Lydlos_kopi {
+
+
+    background-image: url("Lydlos_kopi.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 57%;
+    left: 42%;
+
+}
+
+#Lyd_kopi {
+
+    background-image: url("Lyd_kopi.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 58%;
+    left: 35%;
+
+}
+
+/***************** slut instillingsskærm *********************/
+/**************** start gameover *********************/
+
+
+#gameover_background {
+
+    background-image: url("baggrund2.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+
+}
+
+
+#gameover_tekst {
+
+    background-image: url("gameover2.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+
+}
+
+#spil_igen {
+
+    background-image: url("spil_igen.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 38%;
+    left: 30%;
+
+}
+
+/**************** slut gameover *********************/
+/**************** start levelop *********************/
+
+#levelop_tekst {
+
+    background-image: url("level_op2.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
