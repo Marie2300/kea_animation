@@ -1,0 +1,1 @@
+[I'm an inline-style link with title](http://multikanal.dk/kea/03-animation/Produktion/startsk%C3%A6rm.html "meltman")

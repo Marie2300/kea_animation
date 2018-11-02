@@ -1,3 +1,7 @@
+#startskærm {
+    border: 1px black solid;
+}
+
 /****************** startskærm start ********************/
 
 
@@ -6,6 +10,8 @@
     background-image: url('baggrund1.svg');
     background-repeat: no-repeat;
     margin: auto;
+    width: 100vw;
+    height: 60vw;
     background-size: 100%;
 }
 
@@ -17,9 +23,9 @@
     width: 20vw;
     height: 20vw;
     position: absolute;
-    top: 57%;
-    left: 78%;
-    background-size: 100%;
+    top: 49%;
+    left: 68%;
+    background-size: 80%;
 
 }
 
@@ -30,21 +36,21 @@
     width: 15vw;
     height: 17vw;
     position: absolute;
-    top: 79%;
-    right: ;
-    background-size: 100%;
+    top: 77%;
+    right: 73%;
+    background-size: 70%;
 }
 
 #snemand {
 
     background-image: url("snemand.svg");
     background-repeat: no-repeat;
-    width: 20vw;
-    height: 20vw;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
-    top: 66%;
-    left: 75%;
-    background-size: 100%;
+    top: 56%;
+    left: 65%;
+    background-size: 16%;
 }
 
 #titel {
@@ -56,7 +62,7 @@
     position: absolute;
     top: 18%;
     left: 25%;
-    background-size: 100%;
+    background-size: 90%;
 
 
 }
@@ -68,9 +74,9 @@
     width: 25vw;
     height: 15vw;
     position: absolute;
-    top: 43%;
-    left: 43%;
-    background-size: 100%;
+    top: 36%;
+    left: 42%;
+    background-size: 80%;
 
 
 }
@@ -84,9 +90,9 @@
     height: 20vw;
     position: absolute;
     z-index: 1;
-    top: 60%;
+    top: 47%;
     left: 40%;
-    background-size: 100%;
+    background-size: 70%;
 
 }
 
@@ -99,7 +105,7 @@
     position: absolute;
     z-index: 2;
     top: 0%;
-    left: 25%;
+    left: 45%;
     background-size: 100%;
 
 
@@ -112,13 +118,27 @@
     width: 100vw;
     height: 100vw;
     position: absolute;
+    z-index: 3;
     top: 0%;
-    left: 90%;
-    background-size: 100%;
-
-
+    left: 89%;
+    background-size: 10%;
 
 }
+
+#vand1 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    z-index: 4;
+    top: 42%;
+    left: 72%;
+    background-size: 100%;
+}
+
+
 
 /******************* slut startskærm *********************/
 /******************* start spilskærm *********************/
@@ -143,29 +163,16 @@
     width: 50vw;
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 35%;
 
     background-image: url("snemand2.svg");
     background-repeat: no-repeat;
     margin: auto;
-    background-size: 100%;
+    background-size: 70%;
 
 
 }
 
-#drobe {
-
-    background-image: url("drobe.svg");
-    background-repeat: no-repeat;
-    height: 100vw;
-    width: 100vw;
-    position: absolute;
-    z-index: 2;
-    top: 75%;
-    background-size: 100%;
-
-
-}
 
 
 #drober_liv {
@@ -175,9 +182,9 @@
     position: absolute;
     background-image: url("drober_liv.svg");
     background-repeat: no-repeat;
-    top: 75%;
-    left: 80%;
-    background-size: 100%;
+    top: 64%;
+    left: 82%;
+    background-size: 60%;
 
 
 }
@@ -189,9 +196,9 @@
     height: 12vw;
     width: 15vw;
     position: absolute;
-    top: 0%;
-    left: 90%;
-    background-size: 100%;
+    top: 2%;
+    left: 93%;
+    background-size: 50%;
 }
 
 #vand {
@@ -201,10 +208,227 @@
     height: 5vw;
     width: 5vw;
     position: absolute;
-    top: 30%;
+    top: 20%;
+    left: 50%;
+    background-size: 100%;
+}
+
+#vand2 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background-size: 100%;
+}
+
+#vand3 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-size: 100%;
+}
+
+#vand4 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
     left: 40%;
     background-size: 100%;
 }
+
+#vand5 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-size: 100%;
+}
+
+#vand6 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-size: 100%;
+}
+
+#vand7 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    background-size: 100%;
+}
+
+#vand8 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    background-size: 100%;
+}
+
+#vand9 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-size: 100%;
+}
+
+#vand10 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-size: 100%;
+}
+
+#vand11 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    background-size: 100%;
+}
+
+#vand12 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-size: 100%;
+}
+
+#vand13 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    background-size: 100%;
+}
+
+#vand14 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    background-size: 100%;
+}
+
+#vand15 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    background-size: 100%;
+}
+
+#vand16 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    background-size: 100%;
+}
+
+#vand17 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-size: 100%;
+}
+
+#vand18 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-size: 100%;
+}
+
+#vand19 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 95%;
+    background-size: 100%;
+}
+
 
 /******************* slut spilskærm *********************/
 /**************** start instillingsskærm *********************/
@@ -217,6 +441,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vw;
+    background-size: 100%;
 
 }
 
@@ -230,7 +455,7 @@
     position: absolute;
     top: 20%;
     left: 35%;
-    background-size: 50%;
+    background-size: 30%;
 
 }
 
@@ -242,8 +467,9 @@
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 35%;
+    top: 27%;
     left: 42%;
+    background-size: 8%;
 
 }
 
@@ -256,8 +482,9 @@
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 36%;
+    top: 29%;
     left: 35%;
+    background-size: 8%;
 
 }
 
@@ -269,8 +496,9 @@
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 57%;
+    top: 42%;
     left: 42%;
+    background-size: 8%;
 
 }
 
@@ -281,8 +509,9 @@
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 58%;
+    top: 44%;
     left: 35%;
+    background-size: 8%;
 
 }
 
@@ -339,6 +568,60 @@
     height: 100vw;
     position: absolute;
     top: 8%;
-    left: 10%;
-    background-size: 100%;
+    left: 13%;
+    background-size: 80%;
+}
+
+/**************** slut levelop *********************/
+/**************** start animation *********************/
+
+.falling {
+
+    animation-name: falling;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+
+    from {
+        top: 5vw;
+
+    }
+
+    to {
+        top: 22vw;
+
+
+    }
+
+}
+
+.dissapear {
+
+    animation-name: dissapear;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
+    animation-fill-mode: forwards;
+}
+
+@keyframes dissapear {
+
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(0);
+
+
+    }
+}
+
+.paused {
+    animation-play-state: paused;
+
 }
