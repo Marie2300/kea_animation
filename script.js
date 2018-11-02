@@ -1,27 +1,55 @@
-window.addEventListener("load", start);
+window.addEventListener("load", sidenVises);
 
-function start() {
-    console.log("start");
+function sidenVises() {
+    console.log("sidenVises");
+    showstart();
+
+}
+
+function showstart() {
+    console.log("showStart");
+    document.querySelector("#start").classList.remove("hide");
+    document.querySelector("#start").classList.add("show");
+    document.querySelector("#play").classList.add("pulse");
+    document.querySelector("#play").addEventListener("click", hideStart);
+
+    document.querySelector("#settingsknap").classList.add("pulse");
+
+
+}
+
+function hideStart() {
+    console.log("hideStart");
+    document.querySelector("#play").classList.remove("pulse");
+    document.querySelector("#start").classList.add("fade_out");
+    docum.querySelector("#start").addEventListener("animationend", startGame);
+
+}
+
+function startGame() {
+    console.log("startGame");
+    document.querySelector("#start").classList.add("hide");
+    document.querySelector("#start").classList.remove("show");
+
     document.querySelector("#vand").classList.add("falling");
-    document.querySelector("#vand2").classList.add("falling1");
-    document.querySelector("#vand3").classList.add("falling2");
-    document.querySelector("#vand4").classList.add("falling3");
-    document.querySelector("#vand5").classList.add("falling4");
-    document.querySelector("#vand6").classList.add("falling5");
-    document.querySelector("#vand7").classList.add("falling6");
-    document.querySelector("#vand8").classList.add("falling7");
-    document.querySelector("#vand9").classList.add("falling8");
-    document.querySelector("#vand10").classList.add("falling9");
-    document.querySelector("#vand11").classList.add("falling10");
-    document.querySelector("#vand12").classList.add("falling11");
-    document.querySelector("#vand13").classList.add("falling12");
-    document.querySelector("#vand14").classList.add("falling13");
-    document.querySelector("#vand15").classList.add("falling14");
-    document.querySelector("#vand16").classList.add("falling15");
-    document.querySelector("#vand17").classList.add("falling16");
-    document.querySelector("#vand18").classList.add("falling17");
-    document.querySelector("#vand19").classList.add("falling18");
-    document.querySelector("#vand").addEventListener("click", vandForsvind);
+    document.querySelector("#vand2").classList.add("falling");
+    document.querySelector("#vand3").classList.add("falling");
+    document.querySelector("#vand4").classList.add("falling");
+    document.querySelector("#vand5").classList.add("falling");
+    document.querySelector("#vand6").classList.add("falling");
+    document.querySelector("#vand7").classList.add("falling");
+    document.querySelector("#vand8").classList.add("falling");
+    document.querySelector("#vand9").classList.add("falling");
+    document.querySelector("#vand10").classList.add("falling");
+    document.querySelector("#vand11").classList.add("falling");
+    document.querySelector("#vand12").classList.add("falling");
+    document.querySelector("#vand13").classList.add("falling");
+    document.querySelector("#vand14").classList.add("falling");
+    document.querySelector("#vand15").classList.add("falling");
+    document.querySelector("#vand16").classList.add("falling");
+    document.querySelector("#vand17").classList.add("falling");
+    document.querySelector("#vand18").classList.add("falling");
+    document.querySelector("#vand19").classList.add("falling");
 
 }
 

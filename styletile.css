@@ -1,11 +1,21 @@
-#startskærm {
-    border: 1px black solid;
+root {
+    font-size: 2vw;
+
 }
 
-/****************** startskærm start ********************/
+body {
+    margin: 0;
 
+}
 
-#game_background {
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#menu_background {
     position: relative;
     background-image: url('baggrund1.svg');
     background-repeat: no-repeat;
@@ -14,6 +24,42 @@
     height: 60vw;
     background-size: 100%;
 }
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#play {
+
+    background-image: url("start.svg");
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    z-index: 1;
+    top: 51%;
+    left: 40%;
+    background-size: 70%;
+    cursor: pointer;
+
+}
+
+#start {
+
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    top: 0%;
+    left: 0%;
+    background-size: 100%;
+
+}
+
+/****************** startskærm start ********************/
 
 
 #pige {
@@ -82,20 +128,6 @@
 }
 
 
-#start {
-
-    background-image: url("start.svg");
-    background-repeat: no-repeat;
-    width: 30vw;
-    height: 20vw;
-    position: absolute;
-    z-index: 1;
-    top: 47%;
-    left: 40%;
-    background-size: 70%;
-
-}
-
 #sky {
 
     background-image: url("sky1.png");
@@ -143,7 +175,7 @@
 /******************* slut startskærm *********************/
 /******************* start spilskærm *********************/
 
-#game_backgrounds {
+#game_background {
 
     height: 100vw;
     width: 100vw;
@@ -199,6 +231,51 @@
     top: 2%;
     left: 93%;
     background-size: 50%;
+}
+
+#sky1 {
+
+    background-image: url("sky1.png");
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 11vw;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 45%;
+    background-size: 100%;
+
+
+}
+
+#sky2 {
+
+    background-image: url("sky1.png");
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 11vw;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 15%;
+    background-size: 100%;
+
+
+}
+
+#sky3 {
+
+    background-image: url("sky1.png");
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 11vw;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 75%;
+    background-size: 100%;
+
+
 }
 
 #vand {
@@ -405,45 +482,11 @@
     background-size: 100%;
 }
 
-#vand18 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    background-size: 100%;
-}
-
-#vand19 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 95%;
-    background-size: 100%;
-}
 
 
 /******************* slut spilskærm *********************/
 /**************** start instillingsskærm *********************/
 
-
-#game_background3 {
-
-
-    background-image: url(baggrund1.svg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
-    background-size: 100%;
-
-}
 
 #instillinger2 {
 
@@ -598,6 +641,52 @@
 
 }
 
+.falling {
+
+    animation-name: falling;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+
+    from {
+        top: 5vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.side {
+
+    animation-name: side;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes side {
+
+    from {
+        left: 5vw;
+
+    }
+
+    to {
+        right: 22vw;
+
+
+    }
+
+}
+
+
 .dissapear {
 
     animation-name: dissapear;
@@ -623,5 +712,65 @@
 
 .paused {
     animation-play-state: paused;
+
+}
+
+.hide {
+    visibility: hidden;
+
+}
+
+.show {
+    visibility: visible;
+
+}
+
+.blur {
+    filter: blur(5px) brightness(80%);
+
+
+}
+
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-iteration-count: forwards;
+
+
+}
+
+@keyframes fadeout_kf {
+    0% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1, 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.97);
+
+    }
+
+    100% {
+        transform: scale (1);
+
+    }
 
 }
