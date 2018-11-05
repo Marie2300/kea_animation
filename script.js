@@ -2,19 +2,16 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
-    showstart();
+    showStart();
 
 }
 
-function showstart() {
+function showStart() {
     console.log("showStart");
     document.querySelector("#start").classList.remove("hide");
     document.querySelector("#start").classList.add("show");
     document.querySelector("#play").classList.add("pulse");
     document.querySelector("#play").addEventListener("click", hideStart);
-
-    document.querySelector("#settingsknap").classList.add("pulse");
-
 
 }
 
@@ -22,7 +19,7 @@ function hideStart() {
     console.log("hideStart");
     document.querySelector("#play").classList.remove("pulse");
     document.querySelector("#start").classList.add("fade_out");
-    docum.querySelector("#start").addEventListener("animationend", startGame);
+    document.querySelector("#start").addEventListener("animationend", startGame);
 
 }
 
