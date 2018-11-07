@@ -186,12 +186,12 @@ body {
 
 
 
-#drober_liv {
+#tavle {
 
     height: 30vw;
     width: 30vw;
     position: absolute;
-    background-image: url("drober_liv.svg");
+    background-image: url("tavle.svg");
     background-repeat: no-repeat;
     top: 64%;
     left: 82%;
@@ -200,7 +200,7 @@ body {
 
 }
 
-#timeglas {
+#time {
 
     background-image: url("timeglas.svg");
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ body {
 
 }
 
-#vand {
+.vand {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
@@ -265,47 +265,11 @@ body {
     width: 5vw;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 5%;
     background-size: 100%;
 }
 
-#vand2 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 70%;
-    background-size: 100%;
-}
-
-#vand3 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    background-size: 100%;
-}
-
-#vand4 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    background-size: 100%;
-}
-
-#vand5 {
+.vand_pos2 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
@@ -317,139 +281,7 @@ body {
     background-size: 100%;
 }
 
-#vand6 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 60%;
-    background-size: 100%;
-}
-
-#vand7 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    background-size: 100%;
-}
-
-#vand8 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 90%;
-    background-size: 100%;
-}
-
-#vand9 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    background-size: 100%;
-}
-
-#vand10 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    background-size: 100%;
-}
-
-#vand11 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    background-size: 100%;
-}
-
-#vand12 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 35%;
-    background-size: 100%;
-}
-
-#vand13 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    background-size: 100%;
-}
-
-#vand14 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 65%;
-    background-size: 100%;
-}
-
-#vand15 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 75%;
-    background-size: 100%;
-}
-
-#vand16 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 85%;
-    background-size: 100%;
-}
-
-#vand17 {
+.vand_pos3 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
@@ -461,7 +293,245 @@ body {
     background-size: 100%;
 }
 
+.vand_pos4 {
 
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-size: 100%;
+}
+
+.vand_pos5 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-size: 100%;
+}
+
+.vand_pos6 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-size: 100%;
+}
+
+.vand_pos7 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-size: 100%;
+}
+
+.vand_pos8 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-size: 100%;
+}
+
+.vand_pos9 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    background-size: 100%;
+}
+
+.vand_pos10 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-size: 100%;
+}
+
+.vand_pos11 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    background-size: 100%;
+}
+
+.vand_pos12 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-size: 100%;
+}
+
+.vand_pos13 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    background-size: 100%;
+}
+
+.vand_pos14 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background-size: 100%;
+}
+
+.vand_pos15 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    background-size: 100%;
+}
+
+.vand_pos16 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    background-size: 100%;
+}
+
+vand_pos17 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    background-size: 100%;
+}
+
+vand_pos18 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    background-size: 100%;
+}
+
+vand_pos19 {
+
+    background-image: url("vand.svg");
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    background-size: 100%;
+}
+
+/*** UI ***/
+#points {
+
+    position: absolute;
+    top: 70%;
+    left: 83%;
+    font-family: sans-serif;
+    font-size: 2rem;
+    display: flex;
+    background-size: 100%;
+
+}
+
+.vand {
+
+    background-image: url(vand.svg);
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.antal {
+
+    font-feature-settings: tnum;
+    width: 6rem;
+    text-align: right;
+}
+
+#energy {
+
+    position: absolute;
+    top: 82%;
+    left: 83%;
+    background-size: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.liv {
+
+    width: 3rem;
+    height: 3rem;
+    background-image: url(liv.svg);
+    background-size: 100%;
+
+}
 
 /******************* slut spilskærm *********************/
 /**************** start instillingsskærm *********************/
@@ -587,7 +657,7 @@ body {
 .falling {
 
     animation-name: falling;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -600,25 +670,439 @@ body {
     }
 
     to {
-        top: 22vw;
+        top: 45vw;
 
 
     }
 
 }
 
-.falling {
+.falling1 {
 
-    animation-name: falling;
+    animation-name: falling1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-@keyframes falling {
+@keyframes falling1 {
+
+    from {
+        top: 1vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling2 {
+
+    animation-name: falling2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling2 {
 
     from {
         top: 5vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling2 {
+
+    animation-name: falling2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling2 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling3 {
+
+    animation-name: falling3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling3 {
+
+    from {
+        top: 3vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling4 {
+
+    animation-name: falling4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling4 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling5 {
+
+    animation-name: falling5;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling5 {
+
+    from {
+        top: 1vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling6 {
+
+    animation-name: falling6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling6 {
+
+    from {
+        top: 5vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling7 {
+
+    animation-name: falling7;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling7 {
+
+    from {
+        top: 4vw;
+
+    }
+
+    to {
+        top: 24vw;
+
+
+    }
+
+}
+
+.falling8 {
+
+    animation-name: falling8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling8 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 20vw;
+
+
+    }
+
+}
+
+.falling9 {
+
+    animation-name: falling9;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling9 {
+
+    from {
+        top: 3vw;
+
+    }
+
+    to {
+        top: 25vw;
+
+
+    }
+
+}
+
+.falling10 {
+
+    animation-name: falling10;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling10 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling11 {
+
+    animation-name: falling11;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling11 {
+
+    from {
+        top: 5vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling12 {
+
+    animation-name: falling12;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling12 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 45vw;
+
+
+    }
+
+}
+
+.falling13 {
+
+    animation-name: falling13;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling13 {
+
+    from {
+        top: 4vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.falling14 {
+
+    animation-name: falling14;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling14 {
+
+    from {
+        top: 1vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.falling15 {
+
+    animation-name: falling15;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling15 {
+
+    from {
+        top: 4vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.falling16 {
+
+    animation-name: falling16;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling16 {
+
+    from {
+        top: 2vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.falling17 {
+
+    animation-name: falling17;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling17 {
+
+    from {
+        top: 3vw;
+
+    }
+
+    to {
+        top: 40vw;
+
+
+    }
+
+}
+
+.falling18 {
+
+    animation-name: falling18;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling18 {
+
+    from {
+        top: 2vw;
 
     }
 
@@ -655,14 +1139,14 @@ body {
 
 .dissapear {
 
-    animation-name: dissapear;
+    animation-name: dissapear_kf;
     animation-duration: .7s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
     animation-fill-mode: forwards;
 }
 
-@keyframes dissapear {
+@keyframes dissapear_kf {
 
     from {
         transform: scale(1);
@@ -736,6 +1220,34 @@ body {
 
     100% {
         transform: scale (1);
+
+    }
+
+}
+
+.shake {
+    background-color: floralwhite;
+    width: 100vw;
+    height: 56.25vw;
+
+    animation-name: shake_kf;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+@keyframes shake_kf {
+    0% {
+        background-color: blue;
+        transform: rotate(0) scale(1);
+
+    }
+
+    100% {
+        background-color: floralwhite;
+        transform: rotate(-10deg) scale (1, 5);
 
     }
 
