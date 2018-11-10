@@ -126,13 +126,14 @@ body {
 
     background-image: url("instillinger.svg");
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
+    width: 110vw;
+    height: 10vw;
     position: absolute;
     z-index: 3;
     top: 0%;
     left: 89%;
     background-size: 10%;
+    cursor: pointer;
 
 }
 
@@ -242,309 +243,484 @@ body {
 
 }
 
-#sky3 {
-
-    background-image: url("sky1.png");
-    background-repeat: no-repeat;
-    width: 23vw;
-    height: 11vw;
-    position: absolute;
-    z-index: 2;
-    top: 0%;
-    left: 75%;
-    background-size: 100%;
-
-
-}
-
 .vand {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 5%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos2 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 10%;
     background-size: 100%;
-}
-
-.vand_pos3 {
-
-    background-image: url("vand.svg");
-    background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos4 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 20%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos5 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 25%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos6 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 30%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos7 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 35%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos8 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 40%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos9 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 45%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos10 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos11 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 55%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos12 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 60%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos13 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 65%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos14 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 70%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos15 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 75%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 .vand_pos16 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 80%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 vand_pos17 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 85%;
     background-size: 100%;
+    cursor: pointer;
 }
 
 vand_pos18 {
 
     background-image: url("vand.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     position: absolute;
     top: 20%;
     left: 90%;
     background-size: 100%;
+    cursor: pointer;
 }
 
-vand_pos19 {
+.snefnug {
 
-    background-image: url("vand.svg");
+    background-image: url("snefnug.svg");
     background-repeat: no-repeat;
-    height: 5vw;
-    width: 5vw;
+    height: 4vw;
+    width: 4vw;
     position: absolute;
     top: 20%;
-    left: 100%;
+    left: 5%;
     background-size: 100%;
+    cursor: pointer;
 }
+
+.snefnug_pos2 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos3 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos4 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos5 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos6 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos7 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos8 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos9 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos10 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos11 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos12 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos13 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos14 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos15 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.snefnug_pos16 {
+
+    background-image: url("snefnug.svg");
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+
 
 /*** UI ***/
 #points {
 
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 83%;
     font-family: sans-serif;
-    font-size: 2rem;
-    display: flex;
-    background-size: 100%;
-
-}
-
-.vand {
-
-    background-image: url(vand.svg);
-    background-size: 100%;
-    width: 2rem;
-    height: 2rem;
-}
-
-.antal {
-
+    text-align: center;
     font-feature-settings: tnum;
-    width: 6rem;
-    text-align: right;
+
 }
 
 #energy {
 
     position: absolute;
-    top: 82%;
+    top: 80%;
     left: 83%;
-    background-size: 100%;
-    display: inline-flex;
-    justify-content: space-between;
+    width: 15vw;
+    display: flex;
+    justify-content: flex-start;
 
 }
 
 .liv {
 
-    width: 3rem;
-    height: 3rem;
-    background-image: url(liv.svg);
+    width: 8vw;
+    height: 8vw;
+    background-image: url("liv.svg");
+    background-repeat: no-repeat;
     background-size: 100%;
-
+    background-size: 140%;
+    margin-left: 0
 }
 
 /******************* slut spilskærm *********************/
 /**************** start instillingsskærm *********************/
 
 
-#instillinger2 {
+#setting_screen {
 
 
-    background-image: url(instillinger2.svg);
+    background-image: url(setting_screen.svg);
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vw;
+    width: 120vw;
+    height: 120vw;
     position: absolute;
+    z-index: 1;
     top: 20%;
     left: 35%;
     background-size: 30%;
@@ -559,8 +735,9 @@ vand_pos19 {
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 27%;
-    left: 42%;
+    z-index: 2;
+    top: 0%;
+    left: -7%;
     background-size: 8%;
 
 }
@@ -574,9 +751,9 @@ vand_pos19 {
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 29%;
-    left: 35%;
-    background-size: 8%;
+    top: 6%;
+    left: 5%;
+    background-size: 9%;
 
 }
 
@@ -588,8 +765,8 @@ vand_pos19 {
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 42%;
-    left: 42%;
+    top: 14%;
+    left: -7%;
     background-size: 8%;
 
 }
@@ -601,9 +778,23 @@ vand_pos19 {
     width: 100vw;
     height: 100vw;
     position: absolute;
-    top: 44%;
-    left: 35%;
-    background-size: 8%;
+    top: 14%;
+    left: 1%;
+    background-size: 9%;
+
+}
+
+#settings_close {
+
+    position: absolute;
+
+    left: 56vw;
+    top: 2vw;
+
+    width: 2vw;
+    height: 2vw;
+    background-image: url("settings_close.svg");
+    background-size: 100%;
 
 }
 
@@ -1137,16 +1328,16 @@ vand_pos19 {
 }
 
 
-.dissapear {
+.dissappear {
 
-    animation-name: dissapear_kf;
+    animation-name: dissappear_kf;
     animation-duration: .7s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
     animation-fill-mode: forwards;
 }
 
-@keyframes dissapear_kf {
+@keyframes dissappear_kf {
 
     from {
         transform: scale(1);
@@ -1251,4 +1442,44 @@ vand_pos19 {
 
     }
 
+}
+
+.skyflyver1 {
+
+    animation-name: skyflyver_kf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes skyflyver_kf {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
+}
+
+.skyflyver2 {
+
+    animation-name: skyflyver_kf;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes skyflyver_kf {
+    from {
+        left: -30vw;
+    }
+
+    to {
+        left: 100vw;
+    }
 }
