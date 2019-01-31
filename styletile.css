@@ -675,11 +675,25 @@ vand_pos18 {
 
 
 /*** UI ***/
+#game_ui {
+
+    position: absolute;
+    top: 63%;
+    left: 79%;
+    width: 20vw;
+    height: 20vw;
+    background-image: url('tavle.svg');
+    background-size: 140%;
+
+}
+
 #points {
 
     position: absolute;
-    top: 65%;
-    left: 83%;
+    z-index: 1;
+    font-size: 2rem;
+    top: 35%;
+    left: 15%;
     font-family: sans-serif;
     text-align: center;
     font-feature-settings: tnum;
@@ -689,24 +703,22 @@ vand_pos18 {
 #energy {
 
     position: absolute;
-    top: 80%;
-    left: 83%;
-    width: 15vw;
     display: flex;
     justify-content: flex-start;
+    top: 70%;
+    left: 10%;
 
 }
 
 .liv {
 
-    width: 8vw;
-    height: 8vw;
+    width: 5vw;
+    height: 5vw;
     background-image: url("liv.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: 140%;
-    margin-left: 0
+    background-size: 120%;
+    margin-right: 0.9vw;
 }
+
 
 /******************* slut spilskærm *********************/
 /**************** start instillingsskærm *********************/
@@ -785,16 +797,16 @@ vand_pos18 {
 }
 
 #settings_close {
-
     position: absolute;
 
-    left: 56vw;
-    top: 2vw;
+    left: 1vw;
+    top: -17vw;
 
-    width: 2vw;
-    height: 2vw;
-    background-image: url("settings_close.svg");
-    background-size: 100%;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(settings_close.svg);
+
+    cursor: pointer;
 
 }
 
@@ -1373,7 +1385,7 @@ vand_pos18 {
 }
 
 .fade_out {
-    animation-name: fadeout_kf;
+    animation-name: fade_out_kf;
     animation-duration: .5s;
     animation-iteration-count: 1;
     animation-iteration-count: forwards;
@@ -1381,7 +1393,7 @@ vand_pos18 {
 
 }
 
-@keyframes fadeout_kf {
+@keyframes fade_out_kf {
     0% {
         opacity: 1;
 
